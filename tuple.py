@@ -109,7 +109,7 @@ print(c)
 a=[(1,2,3,4),('pritam','sagar','mayur','abhishek')]
 print(list(zip(*a)))
 '''
-#18.Write a Python program to reverse a tuple.
+#18.Write a Python program to reverse a tuple
 '''
 a=(1,2,3,4,5)
 b=list(a)

@@ -1,0 +1,21 @@
+what is cloud?
+
+-> "The cloud" refers to servers that are accessed over the Internet, 
+and the software and databases that run on those servers. 
+Cloud servers are located in data centers all over the world. 
+By using cloud computing, users and companies don't have to manage 
+physical servers themselves or run software applications 
+on their own machines.
+
+Advantages of cloud?
+
+->Cost Savings. 
+Cost saving is the biggest benefit of cloud computing. ...
+Strategic edge.
+Cloud computing offers a competitive edge over your competitors. ...
+High Speed.
+Back-up and restore data.
+Automatic Software Integration.
+Reliability.
+Mobility.
+Unlimited storage capacity.

@@ -2,7 +2,11 @@
 *The cloud is made up of servers in data centers all over the world. 
 Moving to the cloud can save companies money and add convenience for users.*
 
+![cloud computing](https://teaminfocampus.com/infocampus_admin/dist/blog/media/Screen-Shot-2016-11-26-at-4.11.03-pm.png)
+
 # How does cloud computing work?
+
+![How does cloud computing work](https://image.slidesharecdn.com/finalppt1-131003130509-phpapp02/95/cloud-computing-and-storage-10-638.jpg?cb=1380807959)
 
 *Rather than owning their own computing infrastructure or data centers, companies can rent access to anything from 
 applications to storage from a cloud service provider.
@@ -12,6 +16,8 @@ In turn, providers of cloud computing services can benefit from significant econ
 same services to a wide range of customers.*
 
 # Advantages and Of Cloud Computing
+
+![advantages](https://solutiondots.com/wp-content/uploads/2015/05/Advantage-of-Cloud-Computing-image.png)
 
 ### Cost Savings
 *Cost saving is the biggest benefit of cloud computing. It helps you to save substantial capital cost as it does not
@@ -55,6 +61,7 @@ the cloud, your entire system can be fully functional in very few minutes. Altho
 technologies are used in your business.*
 
 # Disadvantages of Cloud Computing
+![disadvantages](https://thinkitsolutions.com/wp-content/uploads/2019/02/disadvantages-of-cloud-computing.png)
 
 ### Performance Can Vary
 *When you are working in a cloud environment, your application is running on the server which simultaneously provides resources to 

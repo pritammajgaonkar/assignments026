@@ -1,0 +1,207 @@
+'''
+#1.
+def max(no1,no2,no3):
+    if no1>no2:
+        if no1>no3:
+            return print(no1,"is bigger")
+        else:
+            return print(no3,"is bigger")
+    
+    else:
+        if no2>no3:
+            return print(no2,"is bigger")
+        else:
+            return print(no3,"is bigger")
+
+'''
+'''
+#2.
+def sumofall(a):
+    sum=0
+    for i in a:
+        sum=sum+i
+    return sum
+'''
+'''
+#3.
+
+def mulofall(a):
+    mul=1
+    for i in a:
+        mul=mul*i
+    return mul
+
+'''
+'''
+#4.
+def reverse(a):
+    str=""
+    for i in a:
+        str=i+str
+    return str
+print(str)
+'''
+'''
+#5.
+def fact(no):
+    for i in range(1,no,1):
+        no=no*i
+    return no
+'''
+'''
+#6.
+def finny(no,start,end):
+    if no>=start and no<=end:
+        return print("in range")
+    else:
+        return print("noyt in range")
+
+
+no=int(input("enter a no:"))
+start=int(input("enter a start:"))
+end=int(input("enter a end:"))    
+'''
+'''
+#7.
+string=input("enter the string:")
+capital=0
+small=0
+for i in string:
+    if i.isupper():
+        capital+=1
+    elif i.islower():
+            small+=1
+print("small=",small)
+print("capital=",capital)
+        
+'''
+'''
+#8.
+def unique(a):
+    return list(set(a))
+
+a=[1,2,2,3,3,3,4,4,5,5,5]
+b=unique(a)
+print(b)
+
+'''
+'''
+#9.
+
+def prime(no):
+    flag=True
+    for i in range (2,no):
+        if no%i==0:
+            flag=False
+            break
+    if(flag==True):
+        print("prime")
+    else:
+        print("not prime")
+
+
+no=int(input("Enter a no:"))
+prime(no)
+'''
+'''
+#10.
+
+def even(a):
+    for i in a:
+        if i%2==0:
+            print(i)
+
+a=[1,2,3,4,5,6,7,8,9]
+even(a)
+'''
+'''
+#11.
+
+no=int(input("enter the number:"))
+sum=0
+for i in range(1,no+1,1):
+    if no%i==0:
+        sum=sum+i
+        sum1=sum/2
+if sum1==no:
+    print("perfect")
+else:
+    print("not perfect")
+print(sum1)
+
+'''
+#12.
+'''
+def pali(old):
+    new=""
+    for i in old:
+        new=i+new
+    if new==old:
+        print("palindrome")
+    else:
+        print("not palindrome")
+
+old=input("enter a string:")
+pali(old)
+
+'''
+
+#15.
+'''
+def hyphen(stree):
+    a=stree.split("-")
+    b=a.sort()
+    print("-".join(a))
+
+stree="b-z-w-n-m"
+hyphen(stree)
+
+'''
+
+#16.
+'''
+def sq():
+    for i in range(1,31,1):
+        square=i*i
+        print("sqaur of", i," is",square)
+
+sq()
+'''
+
+#18.
+'''
+def SCPC():
+    a="""
+b=2
+c=5
+d=b+c
+print(d)
+"""
+    exec(a)
+SCPC()
+
+'''
+
+#19.
+
+'''
+def add(a,b):
+    c=a*b
+    return c
+
+def add_list(a):
+    for i in range(0,len(a)-2):
+        print(add(a[i+1],a[i+1]))
+
+
+add_list([1,2,3,4,5,6,7,8,9])
+'''
+
+#20.
+
+def local():
+    a=10
+    b=20
+    c=30
+
+print(local.__code__.co_nlocals)

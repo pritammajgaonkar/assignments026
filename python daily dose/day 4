@@ -1,0 +1,98 @@
+#1.Write a function to find max of three numbers.
+'''
+def max(no1,no2,no3):
+    if no1>no2:
+        if no1>no3:
+            return print(no1,"is bigger")
+        else:
+            return print(no3,"is bigger")
+    
+    else:
+        if no2>no3:
+            return print(no2,"is bigger")
+        else:
+            return print(no3,"is bigger")
+
+no1=int(input("enter the 1st number:"))
+no2=int(input("enter the 2nd number:"))
+no3=int(input("enter the 3rd number:"))
+max(no1,no2,no3)
+'''
+
+#2.Write Python program to detect the number of local variables declared
+#in a function.
+'''
+def detect():
+    a=1
+    b=7.0
+    string= "Ronaldo"
+
+print(detect.__code__.co_nlocals)
+'''
+#3.Write a recursive function to calculate the sum of numbers from 0 to 10
+#Expected output: 55
+'''
+def recur(no):
+    if no==1:
+        return(1)
+    else:
+        return (no+recur(no-1))
+    
+print(recur(10))
+
+'''
+#4.Create function showStudent() in such a way that it should accept student id,
+#name, and it’s college name  and if the id and college name is missing in
+#function call it should show it as by default id is 1 and college name is VITA.
+
+'''
+def info(name,idNo=1,clgName="VITA"):
+    print("student ID:",idNo,"\nstudent name:",name,"\nclg name",clgName)
+
+
+info("prtam",26,"clg")
+info("sagar")
+
+'''
+
+#5.Write a Python function that takes a list and returns a new list with
+#unique elements of the first list.
+#Sample List : [11,22,22,33,33,33,44,55,55,66]
+#Unique List : [11, 22,33, 44, 55,66]
+'''
+def uniq(l1):
+    l2=[]
+    for i in l1:
+        if i not in l2:
+            l2.append(i)
+    return l2
+
+print(uniq([11,22,22,33,33,33,44,55,55,66]))
+
+'''
+
+#6.Write a program to obtain the sum of the first and last digit of this number
+#2 user defined functions
+#1st for first digit
+#2nd for last digit
+#Example:
+#Input:  5424
+#Output: 9
+'''
+def first(no):
+    f=no
+    while f>=10:
+        f=f//10
+    return f
+def last(no):
+    last=no%10
+    return last
+    
+num=int(input("enter a number:"))
+f=first(num)
+l=last(num)
+print("sum is",f+l)
+
+
+
+'''

@@ -1,0 +1,95 @@
+
+
+
+#1.Write a Python program to sort a list of elements using the bubble sort                                
+#Algorithm.
+
+'''
+l1=[3,0,4,2,9,1,5]
+for i  in range(len(l1)-1,0,-1):
+    for j in range(i):
+        if l1[j]>l1[j+1]:
+            l1[j],l1[j+1]=l1[j+1],l1[j]
+            
+print(l1)
+'''
+
+#2.Write a Python program for sequential search (Linear search).
+'''
+l1=[23,45,57,51,49,30,37]
+search=int(input("enter the element you want to search:"))
+found=False
+for i in range(len(l1)):
+    if l1[i]==search:
+        found=True
+        print(search,"is found at",i)
+        break
+if found==False:
+    print(search,"is not found")
+        
+'''
+#3.Write a Python program for Binary search.
+
+'''
+def BinarySearch(l1,search):
+    lower=0
+    upper=len(l1)-1
+    found=False
+    while(lower<=upper and not found):
+        mid=(lower+upper)//2
+        if l1[mid]==search:
+            found=True
+            break
+        else:
+            if search<l1[mid]:
+                upper=mid-1
+            else:
+                lower=mid+1
+    return found
+
+l1=[2,3,5,6,4,8,7,9,1]
+search=int(input("enter the element you want:"))
+print(BinarySearch(l1,search))
+'''
+
+#4.Write a python program to concatenate two lists index-wise.
+#List1 = [“M”,”na”,”i”,”lak”]
+#List2 = [“y”,”me”,”s”,”han”]
+#Expected output:
+#[“My”,”name”,”is”,”lakhan”]
+'''
+List1 = ['M','na','i','lak']
+List2 = ['y','me','s','han']
+x = [i + j for i, j in zip(List1, List2)]
+print(x)
+
+'''
+#5.Iterate a given list and check if a given element already exists in a
+#dictionary as a key’s value if not delete it from the list.
+#roll_number = [47, 64, 69, 37, 76, 83, 95, 97]
+#sampledict = {“John”:47,”Peter”:64,”Mahi”:37,”Maria”:76}
+'''
+
+roll_number=[47,64,69,37,76,83,90,97]
+sampledict={"John":47,"Peter":64,"Mahi":37,"Maria":76}
+val=list(sampledict.values())
+for i in roll_number:
+    if i not in val:
+        roll_number.remove(i)
+        print(i,"is removed")
+print(roll_number)
+
+'''
+
+
+
+    
+    
+
+
+
+
+
+
+
+

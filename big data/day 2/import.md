@@ -76,6 +76,8 @@ demonstrated earlier in this unit.
 
 ![impo 5](https://user-images.githubusercontent.com/63596484/86345592-59178600-bc79-11ea-9625-e08489cbe1e7.PNG)
 
+note -> In case of illegal mix of collation error.
+      open mysql -> salaries table -> right clk -> alter table -> gender -> collations (utf8mb4_unicode_ci_*****)
 
 ## 8)To verify the result, view the contents of the files in salaries3. You should have only two output files.
 ## View the contents of part‐m‐00000 and part‐m‐00001

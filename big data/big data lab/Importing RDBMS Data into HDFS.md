@@ -26,5 +26,5 @@
 ![](https://github.com/pritammajgaonkar/assignments026/blob/Big-data/big%20data/images/3.1/9.PNG)
 ## step 10) Split by command with mapper 2
 ![](https://github.com/pritammajgaonkar/assignments026/blob/Big-data/big%20data/images/3.1/10.PNG)
-## step 11) shows two parts splited ganderwise.
+## step 11) shows two parts splited genderwise.
 ![](https://github.com/pritammajgaonkar/assignments026/blob/Big-data/big%20data/images/3.1/11.PNG)

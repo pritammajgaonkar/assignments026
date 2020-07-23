@@ -8,7 +8,7 @@
 ![3](https://user-images.githubusercontent.com/63596484/88266497-f13ee300-ccec-11ea-9741-da00a32b1a0c.PNG)
 ## Step 4) Make hardware config -> select key pair. -> And click on create cluster. 
 ![4](https://user-images.githubusercontent.com/63596484/88266500-f2701000-ccec-11ea-8142-877ff7ab32e8.PNG)
-## Step 5) If your creating cluster for hadoop services then GO TO ADVANCE OPTIONS.
+## Step 5) If your creating cluster for sqoop services then GO TO ADVANCE OPTIONS.
 ![5](https://user-images.githubusercontent.com/63596484/88266502-f308a680-ccec-11ea-8c40-10f9e086374d.PNG)
 ## Step 6) Make hardware config and select SQOOP 1.4.7
 ![6](https://user-images.githubusercontent.com/63596484/88266506-f56b0080-ccec-11ea-8704-da6779262118.PNG)

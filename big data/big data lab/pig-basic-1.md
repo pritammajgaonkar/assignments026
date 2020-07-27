@@ -1,7 +1,7 @@
-unzip labs folder
+unzip labs folder <br/>
 ![](https://github.com/pritammajgaonkar/assignments026/blob/Big-data/big%20data/images/1/1.PNG)
 
-unzip whitehouse_visits.zip from labs/Lab5.2
+unzip whitehouse_visits.zip from labs/Lab5.2 <br/>
 ![](https://github.com/pritammajgaonkar/assignments026/blob/Big-data/big%20data/images/1/2.PNG)
 
 View the contents of this file whitehouse_visits.txt

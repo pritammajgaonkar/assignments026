@@ -22,7 +22,7 @@ Now delete the data2.txt file using the -rm command
 You can use the -cat command to view text files in HDFS
 ![](https://github.com/pritammajgaonkar/assignments026/blob/Big-data/big%20data/images/basic%20lab1/6.1.PNG)
 
-use the ‐tail command to view the end of a file
+use the ‐tail command to view the end of a file.<br/>
 ![](https://github.com/pritammajgaonkar/assignments026/blob/Big-data/big%20data/images/basic%20lab1/6.2.PNG)
 
 See if you can figure out how to use the get command to copy test/data.txt from HDFS into your local /tmp folder
